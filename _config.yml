@@ -1,0 +1,23 @@
+title: My Portfolio
+email: kanellakhskostas@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kanellaman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: Kanellaman
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-livereload
+
+# Optional settings
+markdown: kramdown
+highlighter: rouge
+
+# If you want to use a specific version of GitHub Pages, you can specify it here.
+# It ensures that you are using the same version locally as on GitHub Pages.
+github_pages_version: "~> 276" # Update this to the version you need or remove if not required
