@@ -269,6 +269,8 @@ section {
 
 .about-containers {
   gap: 3rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-details-container {
