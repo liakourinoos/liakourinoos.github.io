@@ -150,10 +150,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* allow section to grow with content — use min-height instead of a fixed height */
+  min-height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
 }
 
 .section-container {
@@ -290,7 +290,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: 0rem;
   bottom: 2.5rem;
 }
 
@@ -306,7 +306,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: auto;
 }
 
 .section__pic-container {
@@ -348,6 +348,7 @@ section {
   gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 5rem;
+  
 }
 
 .article-container {
@@ -386,6 +387,8 @@ article .icon {
 
 #projects {
   position: relative;
+  /* background-color: rgb(58, 58, 163); */
+
 }
 
 .color-container {
@@ -409,6 +412,15 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-arrow{
+  position: sticky;
+  bottom:1rem;
+  display: block;
+  /* pushes it to the right */
+  margin-left: auto;   
+  cursor: pointer;
 }
 
 /* CONTACT */
